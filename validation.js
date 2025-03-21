@@ -6,6 +6,7 @@ const validation = {
     return emailRegex.test(email)
   },
 
+  
   // Validate password strength
   isStrongPassword: (password) => {
     // Password must be at least 8 characters long and contain at least one uppercase letter,
